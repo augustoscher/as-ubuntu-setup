@@ -190,9 +190,9 @@ session-manager-plugin --version
 #wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
 #sudo apt install -y ./teamviewer_amd64.deb
 
-echo 'installing vnc-viewer'
-sudo apt-get install -y --no-install-recommends ubuntu-desktop gnome-panel gnome-settings-daemon metacity nautilus gnome-terminal
-sudo apt-get install vnc4server -y 
+#echo 'installing vnc-viewer'
+#sudo apt-get install -y --no-install-recommends ubuntu-desktop gnome-panel gnome-settings-daemon metacity nautilus gnome-terminal
+#sudo apt-get install vnc4server -y 
 
 echo 'installing fzf'
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
