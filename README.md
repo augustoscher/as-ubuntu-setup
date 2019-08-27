@@ -1,5 +1,5 @@
 ## Ubuntu Setup
-My default ubuntu apps for software develop.
+My default ubuntu apps for software development.
 
 ## Steps
 Clone repository
