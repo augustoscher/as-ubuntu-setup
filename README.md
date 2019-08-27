@@ -7,4 +7,4 @@ Clone repository
 
 Execution permission
 > cd as-ubuntu-setup  
-> chmod +x /startup.sh  
+> chmod +x startup.sh  
