@@ -7,13 +7,13 @@ echo 'installing git'
 sudo apt install git -y
 
 echo "What name do you want to use in GIT user.name?"
-echo "For example, mine will be \"Erick Wendel\""
+echo "For example, mine will be \"Augusto Scher\""
 read git_config_user_name
 git config --global user.name "$git_config_user_name"
 clear 
 
 echo "What email do you want to use in GIT user.email?"
-echo "For example, mine will be \"erick.workspace@gmail.com\""
+echo "For example, mine will be \"augustoscher@gmail.com\""
 read git_config_user_email
 git config --global user.email $git_config_user_email
 clear
@@ -186,9 +186,9 @@ curl "https://s3.amazonaws.com/session-manager-downloads/plugin/latest/ubuntu_64
 sudo dpkg -i session-manager-plugin.deb
 session-manager-plugin --version
 
-echo 'installing teamviewer'
-wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
-sudo apt install -y ./teamviewer_amd64.deb
+#echo 'installing teamviewer'
+#wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
+#sudo apt install -y ./teamviewer_amd64.deb
 
 echo 'installing vnc-viewer'
 sudo apt-get install -y --no-install-recommends ubuntu-desktop gnome-panel gnome-settings-daemon metacity nautilus gnome-terminal
