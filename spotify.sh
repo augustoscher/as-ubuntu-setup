@@ -2,5 +2,5 @@
 
 sudo apt-get update
 
-echo 'installing spotify' 
+echo 'installing spotify...' 
 snap install spotify
