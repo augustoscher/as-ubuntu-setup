@@ -14,6 +14,7 @@ Running:
 ```
 ./startup.sh
 ```
+
 Or:
 ```
 curl https://raw.githubusercontent.com/augustoscher/as-ubuntu-setup/master/startup.sh | bash
