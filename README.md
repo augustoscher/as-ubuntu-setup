@@ -2,7 +2,7 @@
 My default ubuntu apps for software development.
 
 ## Steps
-Clone repository:
+Clone repository:  
 ```git clone git@github.com:augustoscher/as-ubuntu-setup.git```
 
 Execution permission:
