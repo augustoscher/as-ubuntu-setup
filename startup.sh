@@ -6,21 +6,24 @@ sudo apt install curl -y
 echo 'installing git' 
 sudo apt install git -y
 
-echo "What name do you want to use in GIT user.name?"
-echo "For example, mine will be \"Augusto Scher\""
-read git_config_user_name
-git config --global user.name "$git_config_user_name"
-clear 
+# echo "What name do you want to use in GIT user.name?"
+# echo "For example, mine will be \"Augusto Scher\""
+# read git_config_user_name
+# git config --global user.name "$git_config_user_name"
+# clear 
 
-echo "What email do you want to use in GIT user.email?"
-echo "For example, mine will be \"augustoscher@gmail.com\""
-read git_config_user_email
+# echo "What email do you want to use in GIT user.email?"
+# echo "For example, mine will be \"augustoscher@gmail.com\""
+# read git_config_user_email
+# git config --global user.email $git_config_user_email
+
+echo "Setting up git..."
+git_config_user_name="Augusto S. Scher"
+git_config_user_email="augusto.scher@resultadosdigitais.com.br"
+
+git config --global user.name $git_config_user_name
 git config --global user.email $git_config_user_email
-
-echo "Setting vim to default editor"
 git config --global core.editor vim
-
-
 
 echo "Generating a SSH Key"
 ssh-keygen -t rsa -b 4096 -C $git_config_user_email
