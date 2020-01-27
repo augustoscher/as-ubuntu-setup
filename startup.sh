@@ -16,15 +16,11 @@ echo "What email do you want to use in GIT user.email?"
 echo "For example, mine will be \"augustoscher@gmail.com\""
 read git_config_user_email
 git config --global user.email $git_config_user_email
-clear
 
-# echo "Can I set VIM as your default GIT editor for you? (y/n)"
-# read git_core_editor_to_vim
-# if echo "$git_core_editor_to_vim" | grep -iq "^y" ;then
+echo "Setting vim to default editor"
 git config --global core.editor vim
-# else
-# 	echo "Okay, no problem. :) Let's move on!"
-# fi
+
+
 
 echo "Generating a SSH Key"
 ssh-keygen -t rsa -b 4096 -C $git_config_user_email
