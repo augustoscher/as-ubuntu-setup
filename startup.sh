@@ -41,6 +41,9 @@ chsh -s /bin/zsh
 echo 'installing tool to handle clipboard via CLI'
 sudo apt-get install xclip -y
 
+echo 'installing make'
+sudo apt install make
+
 export alias pbcopy='xclip -selection clipboard'
 export alias pbpaste='xclip -selection clipboard -o'
 source ~/.zshrc
