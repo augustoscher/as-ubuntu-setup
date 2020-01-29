@@ -1,5 +1,8 @@
-#!/bin/bash
+#!/usr/bin bash
+
+echo 'updating...' 
+sudo apt-get update
 
 clear
-echo 'installing spotify' 
-snap install spotify
+echo 'installing spotify...' 
+sudo snap install spotify
