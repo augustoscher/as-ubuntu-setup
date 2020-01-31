@@ -1,5 +1,6 @@
 ## Ubuntu Setup
 My default ubuntu apps for software development.
+Some useful script to clear disk space.
 
 ## Steps
 ```
@@ -8,13 +9,13 @@ curl https://raw.githubusercontent.com/augustoscher/as-ubuntu-setup/master/start
 
 Or:
 
-Clone repository:  
+Clone repository:
 ```git clone git@github.com:augustoscher/as-ubuntu-setup.git```
 
 Execution permission:
 ```
-cd as-ubuntu-setup  
-chmod +x startup.sh  
+cd as-ubuntu-setup
+chmod +x startup.sh
 ```
 Running:
 ```
