@@ -20,4 +20,6 @@ chmod +x startup.sh
 Running:
 ```
 ./startup.sh
+./clear-disk-space.sh
+
 ```
